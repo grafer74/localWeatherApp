@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en" >
+<head>
+  <meta charset="utf-8" />
+  <meta name="author" content="Script Tutorials" />
+  <title>Ferdinando Grande - Local Weather</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+
+  <!-- CSS -->
+  <link href="css/bootstrap.min.css" rel="stylesheet">
+  <link href="css/myStyle.css" rel="stylesheet" />
+  
+  <!-- JavaScripts -->
+  
+  <script src="js/jquery-1.11.3.js"></script>
+  <script src="js/bootstrap.min.js"></script>
+  <script src="js/myScript.js"></script>
+
+</head>
+<body>
+<div id="myPage"> <!-- HOME START -->
+<div class="container">
+<div class="col-sm-12">
+    <div class="col-sm-3">
+      <h3>Local Weather App</h3>
+      <p class="toRight"> Switch to
+      <button type="button" id="forCK" class="btn btn-primary btn-sm customB" title="Switch to °C / Km">°C / Km</button>
+      <button type="button"  id="forFM"class="btn btn-primary btn-sm customB" title="Switch to °F / Mi">°F / Mi</button>
+      </p>
+      <div id="forFeelsF" class="well well-sm"><b>Feels like:</b> </div>
+    <div id="forFeelsC" class="well well-sm"><b>Feels like:</b> </div>
+      <div id="forWindM" class="well well-sm"><b>Wind:</b> </div>
+    <div id="forWindK" class="well well-sm"><b>Wind:</b> </div>
+      <div id="forHumidity" class="well well-sm"><b>Humidity:</b> </div>
+    </div>
+    <div class="col-sm-9">
+    	<div class="panel panel-default">
+	    <div class="panel-body">
+    <div class="col-sm-8">
+    </div>
+    <div class="col-sm-4">
+    <div id="forCity" class="well well-sm bigText"></div>
+    <div id="forTempF" class="well well-sm bigText"></div>
+    <div id="forTempC" class="well well-sm bigText"></div>
+    <div id="forIcon" class="well well-sm"></div>
+    <div id="forWeather" class="well well-sm"></div>
+    </div>
+    
+	</div>
+	</div>
+      <div class="col-sm-4">
+        <div id="forPressure" class="well well-sm"><b>Pressure:</b> </div>
+    </div>
+    <div class="col-sm-4">
+      
+      <div id="forVisibilityM" class="well well-sm"><b>Visibility:</b> </div>
+    <div id="forVisibilityK" class="well well-sm"><b>Visibility:</b> </div>
+    </div>
+    <div class="col-sm-4">
+      <div id="forIndexUV" class="well well-sm"><b>UV Index:</b> </div>
+      </div>
+      </div>
+	</div>
+	</div>
+</div> <!-- HOME END -->
+
+<footer> <!-- FOOTER START -->
+    <hr />
+    <div class="container">
+	<div class="col-sm-12">
+      <p class="text-left">Copyright &copy; Grafercode 2015</p>
+	  <p>Data from <a href="http://www.wunderground.com/weather/api">Wunderground Weather API</a></p>
+	  <p>Images from <a href="http://pixabay.com">pixabay.com</a>
+    </div>
+	</div>
+  </footer> <!-- FOOTER END -->
+
+</body>
+</html>
